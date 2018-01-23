@@ -1,43 +1,39 @@
-<<<<<<< HEAD
 # dropdown.js
 
 A dropdown menu component based on jQuery.
-=======
-## Welcome to GitHub Pages
+[demo](http://xiaohaiping.cc/dropdown.js/demo/)
 
-You can use the [editor on GitHub](https://github.com/xiaohp/dropdown.js/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## usage
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Load dropdown.js
 
-### Markdown
+**index.html**
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```html
+<link rel="stylesheet" href="dropdown.css">
+<script src="dropdown.js"></script>
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Add dropdown menu content
 
-### Jekyll Themes
+**index.html**
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/xiaohp/dropdown.js/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
->>>>>>> 1753e1eb6742e7f2a645b3c341f82606b7652b92
+```html
+<div class="dropdown">
+    <div class="more-btn">
+        更多
+        <span class="triangle"></span>
+    </div>
+    <ul class="dropdown-menu">
+        <li>
+            <a href="javascript:;">待处理订单</a>
+        </li>
+        <li>
+            <a href="javascript:;">售后服务</a>
+        </li>
+        <li>
+            <a href="javascript:;">我的关注</a>
+        </li>
+    </ul>
+</div>
+```
