@@ -5,9 +5,7 @@ A dropdown menu component based on jQuery.
 
 ## usage
 
-Load dropdown.js
-
-**index.html**
+Load dropdown.js in your html
 
 ```html
 <link rel="stylesheet" href="dropdown.css">
@@ -15,8 +13,6 @@ Load dropdown.js
 ```
 
 Add dropdown menu content
-
-**index.html**
 
 ```html
 <div class="dropdown">
