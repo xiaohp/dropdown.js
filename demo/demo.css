@@ -1,0 +1,10 @@
+.container {
+    margin: 200px;
+}
+.more-btn {
+    display: inline-block;
+    cursor: pointer;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
