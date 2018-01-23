@@ -1,17 +1,16 @@
 body {
     font-size: 14px;
 }
+
 .container {
     margin-top: 20px;
     margin-left: 200px;
 }
 
-.demo-left {
-    display: inline-block;
-}
 .dropdown {
     display: inline-block;
 }
+
 .more-btn {
     display: inline-block;
     cursor: pointer;
